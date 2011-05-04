@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AntConfiguration">
+    <defaultAnt bundledAnt="true" />
+  </component>
   <component name="CCaseConfig">
     <option name="checkoutReserved" value="false" />
     <option name="markExternalChangeAsUpToDate" value="true" />
@@ -41,6 +44,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FacetAutodetectingManager">
     <autodetection-disabled>
       <facet-type id="scala">
@@ -222,6 +228,44 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
   </component>
+  <component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="App" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <extension name="snapshooter" />
+      <option name="MAIN_CLASS_NAME" value="im.jeanfrancois.servicediscoverychallenge.App" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="servicediscoverychallenge" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run tests" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="servicediscoverychallenge" />
+      <setting name="path" value="" />
+      <setting name="package" value="im.jeanfrancois.servicediscoverychallenge" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="version" value="true" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2271" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+  </component>
   <component name="Regex">
     <option name="pos1" value="218" />
     <option name="pos2" value="218" />
@@ -237,6 +281,17 @@
     <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
+    <library name="Maven: com.google.inject:guice:3.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/3.0/guice-3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/3.0/guice-3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/3.0/guice-3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: junit:junit:4.8.1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/" />
