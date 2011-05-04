@@ -1,6 +1,5 @@
 package im.jeanfrancois.servicediscoverychallenge.server
 
-import im.jeanfrancois.servicediscoverychallenge.ServiceMethod
 /**
  * Document me!
  *

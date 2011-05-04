@@ -1,4 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge.service
+package im.jeanfrancois.servicediscoverychallenge.server.service
 
 import com.google.inject.{Singleton, Inject}
 import im.jeanfrancois.servicediscoverychallenge.server._
