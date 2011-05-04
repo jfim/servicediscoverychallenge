@@ -1,7 +1,7 @@
 package im.jeanfrancois.servicediscoverychallenge.service
 
 import com.google.inject.{Singleton, Inject}
-import im.jeanfrancois.servicediscoverychallenge.{ServiceRegistry, ServiceMethod, ServiceRegistryImpl, Service}
+import im.jeanfrancois.servicediscoverychallenge.server._
 
 /**
  * Document me!

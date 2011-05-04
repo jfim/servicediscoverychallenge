@@ -1,6 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge
-
-import com.google.inject.Singleton
+package im.jeanfrancois.servicediscoverychallenge.server
 
 /**
  * Document me!

@@ -1,7 +1,8 @@
 package im.jeanfrancois.servicediscoverychallenge.service
 
-import im.jeanfrancois.servicediscoverychallenge.{ServiceMethod, Service}
-import com.google.inject.Singleton;
+import com.google.inject.Singleton
+import im.jeanfrancois.servicediscoverychallenge.server.{ServiceMethod, Service}
+;
 
 /**
  * Document me!
@@ -11,7 +12,7 @@ import com.google.inject.Singleton;
 @Singleton
 class MachineNameService extends Service {
   @ServiceMethod
-  def localMachineName() : String = {
+  def localMachineName(): String = {
     System.getenv("COMPUTERNAME");
   }
 }

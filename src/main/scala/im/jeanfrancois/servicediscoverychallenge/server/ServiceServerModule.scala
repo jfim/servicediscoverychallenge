@@ -1,4 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge
+package im.jeanfrancois.servicediscoverychallenge.server
 
 import com.google.inject.AbstractModule
 import com.google.inject.multibindings.Multibinder

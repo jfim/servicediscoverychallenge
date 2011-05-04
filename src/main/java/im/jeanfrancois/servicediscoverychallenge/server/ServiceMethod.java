@@ -1,4 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge;
+package im.jeanfrancois.servicediscoverychallenge.server;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

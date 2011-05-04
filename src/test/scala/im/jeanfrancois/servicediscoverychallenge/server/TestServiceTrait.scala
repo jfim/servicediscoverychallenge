@@ -1,7 +1,8 @@
-package im.jeanfrancois.servicediscoverychallenge
+package im.jeanfrancois.servicediscoverychallenge.server
 
 import org.scalatest.matchers.MustMatchers
 import org.scalatest.Spec
+import server.Stop
 
 /**
  * Document me!

@@ -1,4 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge
+package im.jeanfrancois.servicediscoverychallenge.server
 
 import actors.Actor
 import scala.actors.remote.RemoteActor._

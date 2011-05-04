@@ -1,4 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge
+package im.jeanfrancois.servicediscoverychallenge.server
 
 import actors.Actor
 import java.lang.reflect.Method
@@ -33,4 +33,3 @@ trait Service extends Actor {
     }
   }
 }
-

@@ -1,4 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge
+package im.jeanfrancois.servicediscoverychallenge.server
 
 import com.google.inject.{Inject, Singleton}
 import scala.collection.JavaConversions._
