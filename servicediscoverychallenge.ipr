@@ -232,7 +232,7 @@
     <configuration default="false" name="ServiceServer" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" />
       <extension name="snapshooter" />
-      <option name="MAIN_CLASS_NAME" value="im.jeanfrancois.servicediscoverychallenge.ServiceServer" />
+      <option name="MAIN_CLASS_NAME" value="im.jeanfrancois.servicediscoverychallenge.server.ServiceServer" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
