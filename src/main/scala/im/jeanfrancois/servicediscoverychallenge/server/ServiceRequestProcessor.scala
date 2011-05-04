@@ -3,6 +3,7 @@ package im.jeanfrancois.servicediscoverychallenge.server
 import actors.Actor
 import scala.actors.remote.RemoteActor._
 import com.google.inject.{Singleton, Inject}
+import im.jeanfrancois.servicediscoverychallenge.common.ServiceRequestMessage
 
 /**
  * Document me!
@@ -20,7 +21,11 @@ class ServiceRequestProcessor @Inject() (val serviceRegistry : ServiceRegistry) 
         case ServiceRequestMessage(classname, methodName, methodArgs) => {
           serviceRegistry.serviceList.find(service => service.getClass.getName == classname) match {
             case Some(service) => {
-              reply(service !? ProcessServiceMethod(methodName, methodArgs));
+              try {
+                reply(service !? ProcessServiceMethod(methodName, methodArgs));
+              } catch {
+                case e => reply(e);
+              }
             }
             case None => reply(Nil);
           }
