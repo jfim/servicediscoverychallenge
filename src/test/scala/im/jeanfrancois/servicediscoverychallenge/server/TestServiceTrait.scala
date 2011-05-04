@@ -2,6 +2,7 @@ package im.jeanfrancois.servicediscoverychallenge.server
 
 import org.scalatest.matchers.MustMatchers
 import org.scalatest.Spec
+import im.jeanfrancois.servicediscoverychallenge.common.Stop
 
 /**
  * Document me!

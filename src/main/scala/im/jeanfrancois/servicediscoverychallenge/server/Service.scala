@@ -2,6 +2,7 @@ package im.jeanfrancois.servicediscoverychallenge.server
 
 import actors.Actor
 import java.lang.reflect.Method
+import im.jeanfrancois.servicediscoverychallenge.common.Stop
 
 /**
  * Document me!

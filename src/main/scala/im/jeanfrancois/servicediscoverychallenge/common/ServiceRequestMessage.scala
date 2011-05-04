@@ -1,4 +1,4 @@
-package im.jeanfrancois.servicediscoverychallenge.server
+package im.jeanfrancois.servicediscoverychallenge.common
 
 /**
  * Document me!
